@@ -11,3 +11,12 @@
     transition: all 0.3s;
     width: 95px;
 }
+
+.btn:active {
+    box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.centered-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
