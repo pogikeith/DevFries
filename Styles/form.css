@@ -29,6 +29,12 @@
     transition: all 0.3s;
 }
 
+.form input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    border-bottom: 3px solid #cea135;
+}
+
 .form label {
     font-size: 1.2rem;
     font-weight: 700;
@@ -39,11 +45,6 @@
     color: #CEA135;
 }
 
-.form input:focus {
-    outline: none;
-    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
-    border-bottom: 3px solid #cea135;
-}
 
 .form input:focus, .form textarea:focus {
     outline: none;
@@ -53,6 +54,6 @@
 
 .form textarea:focus {
     outline: none;
-    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.1);
     border: 3px solid #cea135;
 }
